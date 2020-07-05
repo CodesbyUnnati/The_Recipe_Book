@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body,
+html {
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    background:rgb(240, 193, 105);
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3.8em;
+    background: palevioletred;
+    padding: 20px;
+    margin: 0;
+    letter-spacing: 10px;
+    color: #333;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 18% auto;
+}
+
+figure {
+    background: #D8F7FF;
+    margin: 0;
+}
+
+article {
+    padding: 2em;
+}
+
+h3 {
+    color: rgb(56, 39, 86);
+    font-size: 4em;
+    margin-top: 0;
+}
+li{
+    font-size: 1.5em;
+    color: rgb(41, 37, 37);
+   font-family: 'Open Sans Condensed',
+   sans-serif;
+   font-weight: 800;
+   text-transform: capitalize;
+}
+img {
+    width: 250px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+footer{
+    text-align: center;
+    background: palevioletred;
+     font-family: 'Open Sans Condensed',
+     sans-serif;
+     font-size: 1em;
+     font-weight: 800;
+     color: #333;
+     letter-spacing: 5px;
+    width: 100%;
+    padding: 12px;
+}
+
+.entered {
+    -webkit-animation: scale-up-bl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-bl 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale-up-bl {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+}
+
+@keyframes scale-up-bl {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+img {
+    width: 100%;
+}
+section{
+    grid-template-columns: 38% auto;
+}
+h1{
+    font-size: 2.5em;
+}
+h4{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 2.5em;
+}
+li{
+    font-size: 1.2em;
+}
+}
