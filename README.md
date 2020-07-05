@@ -10,5 +10,5 @@ It is a short and sweet website built to give you some International Recipes; so
 
 <h1>Other Resources</h1>
 <li>Animista Library for animations</li>
-<li>Enter-View(Javascript Library)<li>
+<li>Enter-View(Javascript Library)</li>
 <li>Google(for the recipes)</li>
