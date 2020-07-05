@@ -1,7 +1,9 @@
-# 📍The Recipe Book Website [https://the-recipe-book.netlify.app/]
+# 📍The Recipe Book Website
 
 It is a short and sweet website built to give you some International Recipes; so that you can make delicious food out of it😉
-<br>It is Responsive too, i.e you can view it on any device📱
+<br>It is Responsive too, i.e you can view it on any device📱<br>
+<b><a href="https://the-recipe-book.netlify.app/">VIEW HERE</a></b>
+
 
 <h1>Languages Used</h1>
 <li>HTML5</li>
